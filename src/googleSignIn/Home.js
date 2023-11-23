@@ -41,11 +41,13 @@ function Home() {
           <div className="category">
             <h4 className='headingCategory'>Category:</h4>
             <div className="item">
-
+              <div className="box">
+                
+              </div>
             </div>
           </div>
           <div className="blog">
-          
+
           </div>
         </div>
       </div>
