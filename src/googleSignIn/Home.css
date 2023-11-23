@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    background: #fff;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+.logOutbtn{
+    border: none;
+    padding: 10px 30px;
+    background-image: linear-gradient(to right, #02AAB0 0%, #00CDAC  51%, #02AAB0  100%);
+    padding: 15px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    display: block;
+    cursor: pointer;
+      
+     
+}
+.logOutbtn:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+}
+.imgItem{
+    width: 100%;
+    background: rgb(7,2,88);
+    background: linear-gradient(3deg, rgba(7,2,88,1) 0%, rgba(5,5,222,1) 0%, rgba(0,212,255,1) 100%);
+    margin-top: 60px;
+    height: 230px;
+    position: relative;
+}
+.container{
+    max-width: 1000px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.headingInformatik{
+    font-family: 'Pacifico', cursive;
+    font-size: 25px;
+    color: #fff;
+    letter-spacing: 2px;
+    transform: rotate(-17deg);
+    display: inline-block;
+    margin-top:40px;
+}
+.imgItemLeft{
+  display: flex;
+}
+
+
+.sidebar{
+  width: 100%;
+}
+.sidebar .container{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.sidebar .container a{
+  text-decoration: none;
+  font-size: 30px;
+  margin: 10px 0;
+  color: black;
+  font-weight: lighter;
+  transition: all 0.2s ;
+}
+.sidebar .container a:hover{
+  opacity: 0.7;
+}
+
+.info{
+  width: 100%;
+  background-image: url(../img/bgImg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.container1{
+  max-width: 1200px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  background: #fff;
+  display: flex;
+  gap: 30px;
+}
+.category{
+  width: 28%;
+  padding: 10px;
+}
+.headingCategory{
+  text-align: center;
+}
+.item{
+  background: #000;
+  height: 100vh;
+  margin-top: 20px;
+  border-radius: 20px;
+}
+.blog{
+  width: 78%;
+  margin-top: 10px;
+  padding: 10px;
+}
+/* ---------------------- animation item ------------------------  */
+
+  
+
+#console p {
+    font-family: monospace;
+    font-weight: bold;
+    font-size: 4.1vh;
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+    color: limegreen;
+    text-shadow: 0px 0px 10px limegreen;
+  }
+  
+  .msg {
+    font-family: monospace;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 5vh;
+    background: red;
+    box-shadow: 0 0 30px red;
+    text-shadow: 0 0 20px white;
+    color: white;
+    padding : 10px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    min-width: 200px;
+    animation-name: blink;
+    animation-duration: 0.6s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+  }
+  
+  @keyframes blink {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+body {
+	font-size: 1.4rem;
+    box-sizing: border-box;
+}
+::-webkit-scrollbar{
+  width: 7px;
+}
+
+
+/* ---------------------- animation item ------------------------  */
