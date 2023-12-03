@@ -1,6 +1,6 @@
 import React from 'react'
 import "./Home.css"
-
+import Logo from "../img/logo.png"
 
 function Home() {
   
@@ -12,7 +12,7 @@ function Home() {
     <div>
       <div className='header'>
         <div className='navbar'>
-            <img src="" alt="logo" />
+          <img src={Logo} alt="Logo" />
             <button onClick={logout} className='logOutbtn'>LogOut</button>
         </div>
       </div>
@@ -41,9 +41,7 @@ function Home() {
           <div className="category">
             <h4 className='headingCategory'>Category:</h4>
             <div className="item">
-              <div className="box">
-                
-              </div>
+
             </div>
           </div>
           <div className="blog">

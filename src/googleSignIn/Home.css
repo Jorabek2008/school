@@ -22,6 +22,9 @@
     justify-content: space-between;
     padding: 10px 0;
 }
+.navbar img{
+  width: 250px;
+}
 .logOutbtn{
     border: none;
     padding: 10px 30px;
@@ -118,7 +121,7 @@
   text-align: center;
 }
 .item{
-  background: #000;
+  border: 1px solid;
   height: 100vh;
   margin-top: 20px;
   border-radius: 20px;
