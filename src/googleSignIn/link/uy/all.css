@@ -1,0 +1,106 @@
+.container1{
+  width: 100%;
+}
+.info{
+  position: relative;
+}
+.container h3{
+
+    color: red;
+    animation-name: blink;
+    animation-duration: 0.6s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+}
+  
+@keyframes blink {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+*{
+  box-sizing: border-box;
+}
+.btn{
+    padding: 10px 30px ;
+    border: 2px solid red;
+    font-size: 20px;
+    border-radius: 20px;
+    margin-top: 20px;
+    font-weight: 600;
+    color: red;
+    cursor: pointer;
+}
+
+.name{
+  color: #777;
+  font-size: 16px;
+  margin-top: 10px;
+  
+}
+
+form{
+  height: 14px;
+  width: 100%;
+  max-width: 728px;
+  display: flex;
+  position: absolute;
+  bottom: 24px;
+  left: 50%;
+  transform: translateX(-50%);
+  align-items: center;
+}
+.inp{
+  width: 100%;
+  padding: 10px;
+  height: 40px;
+  background: #000;
+  color: white;
+  outline: none;
+  border: none;
+  font-size: 20px;
+  border-radius: 10px;
+
+
+}
+.btn1{
+  width: 20%;
+  background: green;
+  color: white;
+  font-size: 20px;
+  height: 40px;
+  margin-left: 10px;
+  border: none;
+  border-radius: 10px;
+}
+.message{
+  margin-left: 20px;
+  position: relative;
+}
+.sent{
+  background: #395dff;
+   color: white;
+    border-radius: 20px 20px 0 20px;
+    margin-top: 10px;
+    padding: 10px;
+    display: inline-block;
+    margin: 5px 0; 
+
+  
+}
+.received{
+  background: #e5e5ea;
+  color: black;
+  border-radius: 20px 20px 20px 0px;
+  margin: 5px 0; 
+  margin-top: 10px;
+  padding: 10px;
+  display: inline-block;
+
+}
+
