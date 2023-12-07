@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useCallback } from 'react'
 import "./Home.css"
 import GoogleImg from "./../img/google.png"
 import ExitImg from "./../img/EXIT.png"
@@ -6,8 +6,7 @@ import Logo from "../img/logo.png"
 import { auth, provider } from "./config";
 import { signInWithPopup } from "firebase/auth";
 import { Link } from 'react-router-dom';
-import Cookies from "universal-cookie"
-const cookies = new Cookies()
+
 
 function Home() {
   
@@ -26,8 +25,10 @@ function Home() {
   };
 
 
+
   return (
     <div>
+      
       <div className='header'>
         <div className='navbar'>
           <img src={Logo} alt="Logo" />
